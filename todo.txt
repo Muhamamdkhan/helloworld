@@ -1,0 +1,11 @@
+TASK 01
+- create a new package named order
+- add a new file named order
+- declare a new struct type in order file with following properties:
+  id of type integer
+  name of type string
+  amount of type integer
+  tax of type integer
+- add a method into order struct named calculate total which will deduct tax from total and returns remaing amount
+- initialize order struct in main method with some data
+- and finally call calculate total method over order struct object to display total
