@@ -6,6 +6,6 @@ type User struct {
 	Email     string
 }
 
-func sayHello() string {
+func SayHello() string {
 	return "Hello"
 }
