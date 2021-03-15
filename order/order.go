@@ -10,5 +10,5 @@ type Order struct {
 }
 
 func (v Order) CalculateTotal() {
-	fmt.Println(v.Amount - v.Tax)
+	fmt.Println(v.Amount - v.Tax) // Todo: return calculated amount don't print it..
 }
